@@ -11,8 +11,8 @@ This is a simple mock server that simulates an OAuth2 Authorization Server for i
   - [`GET` /.well-known/jwks.json](#get-well-knownjwksjson)
   - [`POST` /jwt/sign](#post-jwtsign)
     - [DPoP-bound access token](#dpop-bound-access-token)
-- [Key pair](#key-pair)
-- [🚀 Live Demo](#-live-demo)
+- [Key Pair](#key-pair)
+- [Live Demo](https://oauth-fetch.oauthlabs.com/)
 
 ## Routes
 
@@ -137,7 +137,3 @@ You can generate your own key pair using libraries such as `jose` or just using 
 ```bash
 npm generate-keypair
 ```
-
-## 🚀 Live Demo
-
-👉 Check our live demo: [`mock-jwt-issuer` Playground](https://auth.playground.oauthlabs.com)
