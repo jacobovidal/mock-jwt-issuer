@@ -35,6 +35,9 @@ You can provide any valid JWT claims in the body. Some fields are optional; defa
 | `iat`   | Issued At (UNIX time)   | Current time              |
 | `exp`   | Expiration (UNIX time)  | 1 hour from now           |
 
+> [!NOTE]
+> You may include any additional claims in the request payload. All fields provided in the body will be embedded directly into the resulting JWT payload.
+
 Example:
 
 ```bash
@@ -135,5 +138,5 @@ The server loads the key pair from:
 You can generate your own key pair using libraries such as `jose` or just using the following npm command:
 
 ```bash
-npm generate-keypair
+npm run generate-keypair
 ```
