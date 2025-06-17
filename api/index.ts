@@ -7,7 +7,7 @@ import type { JWK, JWTPayload } from "jose";
 import type { BoundAccessToken } from "./types.js";
 
 const DEFAULT_EXPIRATION = 60 * 60; // 1 hour
-const DEFAULT_AUDIENCE = "https://api.example.com";
+const DEFAULT_AUDIENCE = "https://api.playground.oauthlabs.com";
 
 const app = express();
 

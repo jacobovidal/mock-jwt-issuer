@@ -30,7 +30,7 @@ You can provide any valid JWT claims in the body. Some fields are optional; defa
 | ------- | ----------------------- | ------------------------- |
 | `iss`   | Issuer                  | Request host              |
 | `sub`   | Subject                 | Random UUID               |
-| `aud`   | Audience                | `https://api.example.com` |
+| `aud`   | Audience                | `https://api.playground.oauthlabs.com` |
 | `nbf`   | Not Before (UNIX time)  | Current time              |
 | `iat`   | Issued At (UNIX time)   | Current time              |
 | `exp`   | Expiration (UNIX time)  | 1 hour from now           |
