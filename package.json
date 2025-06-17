@@ -16,11 +16,13 @@
   "author": "Jacobo Vidal",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "jose": "^6.0.11"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "tsup": "^8.5.0",
     "tsx": "^4.20.3",
