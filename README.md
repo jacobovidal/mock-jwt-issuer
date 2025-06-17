@@ -12,7 +12,7 @@ This is a simple mock server that simulates an OAuth2 Authorization Server for i
   - [`POST` /jwt/sign](#post-jwtsign)
     - [DPoP-bound access token](#dpop-bound-access-token)
 - [Key Pair](#key-pair)
-- [Live Demo](https://oauth-fetch.oauthlabs.com/)
+- [Live Demo](https://auth.playground.oauthlabs.com/.well-known/jwks.json)
 
 ## Routes
 
