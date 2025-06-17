@@ -1,0 +1,29 @@
+{
+  "name": "mock-jwt-issuer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch api/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup",
+    "build:watch": "tsup --watch",
+    "format": "prettier --write \"./api/**/*.{ts,tsx,js,jsx,json,md}\"",
+    "lint": "eslint \"./**/*.ts*\"",
+    "generate-keypair": "tsx ./scripts/generateAndSaveKeyPair.ts"
+  },
+  "author": "Jacobo Vidal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jose": "^6.0.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@types/express": "^5.0.3",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript-eslint": "^8.34.1"
+  }
+}
